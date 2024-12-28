@@ -4,7 +4,7 @@
 
 - Requirements: SQLite, uv (for Python package management), Flask (installed via `uv pip install`)
 
-Start virtual environment:
+Start local server:
 ```zsh
 source .venv/bin/activate
 ```
