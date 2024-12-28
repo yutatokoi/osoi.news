@@ -9,6 +9,10 @@ Start virtual environment:
 source .venv/bin/activate
 ```
 
+```zsh
+python3 app.py
+```
+
 Stop virtual environment:
 ```zsh
 deactivate
