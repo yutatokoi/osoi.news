@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>osoi.news</title>
-    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
     <header>
-        <h2 class="name">
-            <a href="index.html">osoi.news</a>
-        </h2>
+        <div class="container">
+            <h2 class="name">
+                <a href="index.html">osoi.news</a>
+            </h2>
+        </div>
     </header>
 
     <main>
-        <h3>2024-12-28までの一週間のニュース</h3>
-        <button id="alert-button">Click Me</button>
+        <div class="container">
+            <h3>2024-12-28までの一週間のニュース（毎週土曜日に更新）</h3>
+            <ul id="news-list"></ul>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; <span id="year"></span> Yuta Tokoi</p>
+        <div class="container">
+                <p>&copy; <span id="year"></span> Yuta Tokoi | <a href="https://github.com/yutatokoi/osoi.news/blob/main/README.md">About osoi.news</a> | <a href="https://github.com/yutatokoi/osoi.news" target="_blank">Source code</a></p>
+        </div>
     </footer>
 
-    <script src="../static/script.js"></script>
+    <script src="/static/script.js"></script>
 </body>
 </html>
 

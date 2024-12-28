@@ -4,21 +4,23 @@ body {
     margin: 0;
     padding: 0;
     background-color: #111827;
+    color: #ffffff;
 }
 
 body a,
-body a:visited,
-body a:hover,
-body a:focus,
-body a:link {
+body a:visited {
     color: #4ade80;
 }
 
-header {
-    background: #111827;
-    color: #ffffff;
-    padding: 1rem 0;
-    text-align: center;
+body a:hover {
+    opacity: 0.8;
+}
+
+.container {
+    max-width: 717px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: left;
 }
 
 header h2.name a,
@@ -32,37 +34,25 @@ header h2.name a:link {
 
 main {
     color: #d1d5db;
-    margin: 2rem;
-    text-align: center;
+    margin-top: 2rem;
 }
 
-button {
-    background: #007bff;
-    border: none;
-    color: #ffffff;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    border-radius: 5px;
+main ul {
+    list-style: none;
+    padding-left: 0;
 }
 
 footer {
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 1em 0;
-    background: #111827;
     color: #9ca3af;
-    margin-top: 5rem;
-    margin-bottom: 2.5rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 footer a,
-footer a:visited,
-footer a:hover, 
-footer a:focus,
-footer a:link {
-    color: inherit;
+footer a:visited {
+    color: #9ca3af;
     text-decoration: underline;
 }
+
