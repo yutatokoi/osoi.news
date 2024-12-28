@@ -1,0 +1,11 @@
+CREATE TABLE news (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    date TEXT NOT NULL,
+    url TEXT NOT NULL,
+    title TEXT NOT NULL
+);
+
+INSERT INTO news (date, url, title) VALUES
+('2024-12-28', 'https://www3.nhk.or.jp/news/html/20241228/k10014104381000.html', 'Japan GDP Growth at Record High'),
+('2024-12-27', 'https://www.reuters.com/world/asia-pacific/tokyo-stocks-surge-20241227.html', 'Tokyo Stock Market Surges');
+-- Add more entries as needed
